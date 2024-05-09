@@ -1,0 +1,380 @@
+* {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: border-box;
+}
+
+/* hero-section */
+
+.hero-section {
+    background-image: url(coffe_beans_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-content {
+    width: 90%;
+}
+
+/* panel */
+
+.panel {
+    background-color: white;
+    height: 80px;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kafe-logo {
+    height: 44px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 143px;
+}
+
+.panel-options  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.options {
+    padding: 6px;
+    font-size: 15px;
+    color: #38220F;
+}
+
+.options:hover {
+    border-bottom: 2px solid #38220F;
+}
+
+.title-icon {
+    display: flex;
+}
+
+.panel-icon {
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.colored-button {
+    display: inline-block;
+    height: 52px;
+    padding: 10px 30px;
+    background-color: #967259;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 45ms ease-in;
+}
+
+.colored-button:hover {
+    background-color:azure;
+    color: #967259;
+    border:0.5px solid #967259
+}
+/* main-content */
+.main-content {
+    color: #38220F;
+}
+
+.main-heading {
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.main-para {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.hero-button {
+    display: flex;
+}
+
+.uncolored-button {
+    display: inline-block;
+      height: 52px;
+      padding: 10px 30px;
+      background-color:azure;
+      color:#967259;
+      border: 0.5px solid #967259;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1rem;
+      margin-left: 1.5rem;
+}
+
+.uncolored-button:hover {
+    background-color:#967259;
+    color:azure;
+}
+/* items-block */
+
+.item-block {
+    padding: 130px 15px 30px 15px;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.curved-line {
+    height: 10px;
+    width: 150px;
+    margin-top: 45px;
+    /* position: relative;
+    left: 45%; */
+}
+
+.item-heading {
+    font-family: serif;
+    color: #38220F;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+}
+
+span {
+    font-size: 20px;
+    color:#967259;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item-boxes {
+    margin-top: 40px;
+    /* width: 96%; */
+}
+
+.item-box {
+    height: 380px;
+    width: 330px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-img {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item-para {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* promotion-section */
+.promotion-section {
+    padding: 80px 5px 50px 5px;
+    text-align: center;
+}
+
+.promotion-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    /* text-align: center; */
+}
+
+.para-boxes {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.promo-heading {
+    font-weight: lighter;
+    color: #38220F;
+    font-size: 50px;
+    font-family: serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.promo-para {
+    color: #7d7269;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+.promo-box {
+    width: 335px;
+    display: inline-block;
+    padding: 8px;
+}
+
+.promo-image {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.promo-content {
+    background-color: #f7f5f1;
+    padding: 27px 35px 39px 35px;
+}
+
+.ppp1 {
+    display: flex;
+    justify-content: space-between;
+    color: #7d7269;
+    font-size: 18px;
+}
+
+.a-hover:hover {
+    color:#967259;
+}
+
+.ppp2 {
+    color: #38220F;
+    font-family: serif;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* .side-beans {
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    right: 0px;
+} */
+
+/* footer */
+
+.footer {
+    background-color: #38220F;
+    padding: 80px 15px 50px 15px;
+    color:white;
+}
+
+.foot-block {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-info {
+    padding-bottom: 50px;
+}
+
+.foot-box {
+    width: 235px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.foot-para {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #967259;
+    transition: all 1s;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.foot-main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 43px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.kafe-white {
+    width: 143px;
+    height: 44px;
+    margin-bottom: 20px;
+}
+
+.foot-waste {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.foot-para:hover {
+    color: #604533;
+}
+
+.options:hover {
+    cursor: pointer;
+}
+
+
+
+@media (min-width:340px) and (max-width:400px) {
+    .main-heading {
+        font-size: 42px;
+    }
+
+    .main-para {
+        font-size: 20px;
+    }
+
+    .item-heading {
+        font-size: 40px;
+    }
+
+    .promo-heading {
+        font-size: 38px;
+    }
+
+    .promo-para {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .foot-para {
+        font: 10px;
+    }
+
+    .panel-options {
+        display: none;
+    }
+
+    .signup {
+        display: none;
+    }
+}
+
+
